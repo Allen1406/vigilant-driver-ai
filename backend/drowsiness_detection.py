@@ -6,7 +6,7 @@ import math
 mp_face_mesh = mp.solutions.face_mesh
 face_mesh = mp_face_mesh.FaceMesh()
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 # Eye landmark indices
 LEFT_EYE = [33, 160, 158, 133, 153, 144]
